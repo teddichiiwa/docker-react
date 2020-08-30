@@ -1,0 +1,11 @@
+FROM node:alpine
+
+WORKDIR '/app'
+
+COPY package.json .
+RUN npm install
+
+# We use docker-compose, so this is not nescessary
+COPY . .
+
+CMD ["yarn", "run", "start"]
