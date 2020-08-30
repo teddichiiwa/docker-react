@@ -16,7 +16,15 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          I was changed on the Feature branch
+          Learn React
+        </a>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Second text
         </a>
       </header>
     </div>
